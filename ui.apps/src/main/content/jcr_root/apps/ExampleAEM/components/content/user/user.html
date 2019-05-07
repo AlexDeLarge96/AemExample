@@ -1,0 +1,13 @@
+<div data-sly-use.user="com.endava.aem.example.core.models.components.User" class="user-info">
+    <div data-sly-test="${user.photoUrl}">
+        <img src="${user.photoUrl}">
+    </div>
+    <div>
+        <p>
+            <b>Id:</b>${user.id}
+        </p>
+        <p>
+            <b>Name:</b>${user.name}
+        </p>
+    </div>
+</div>

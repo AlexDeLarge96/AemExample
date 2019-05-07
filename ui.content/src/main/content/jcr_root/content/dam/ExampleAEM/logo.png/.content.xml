@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="95c9d47a-09f2-4626-8699-8fbf67e9494d">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="ExampleAEM/logo.png"
+        jcr:lastModified="{Date}2019-05-07T11:56:24.123-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2019-05-07T11:56:23.660-05:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}127"
+            dam:Physicalheightininches="{Decimal}0.787401556968689"
+            dam:Physicalwidthindpi="{Long}127"
+            dam:Physicalwidthininches="{Decimal}0.787401556968689"
+            dam:Progressive="no"
+            dam:sha1="3061a912f8c06b2fa86be5e00da2d4ef55c53dad"
+            dam:size="{Long}5029"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}100"
+            tiff:ImageWidth="{Long}100"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
